@@ -1,7 +1,7 @@
 [submodule "riscv-binutils"]
 	path = riscv-binutils
-	url = https://github.com/riscv-collab/riscv-binutils-gdb.git
-	branch = riscv-binutils-2.36.1
+	url = git@github.com:HexHive/seccell-riscv-binutils-gdb.git
+	branch = secure
 [submodule "riscv-gcc"]
 	path = riscv-gcc
 	url = https://github.com/riscv-collab/riscv-gcc.git
@@ -19,8 +19,8 @@
 	branch = master
 [submodule "riscv-gdb"]
 	path = riscv-gdb
-	url = https://github.com/riscv-collab/riscv-binutils-gdb.git
-	branch = fsf-gdb-10.1-with-sim
+	url = git@github.com:HexHive/seccell-riscv-binutils-gdb.git
+	branch = secure
 [submodule "qemu"]
 	path = qemu
 	url = https://git.qemu.org/git/qemu.git
