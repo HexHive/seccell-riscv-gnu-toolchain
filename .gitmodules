@@ -5,7 +5,7 @@
 [submodule "riscv-gcc"]
 	path = riscv-gcc
 	url = https://github.com/riscv-collab/riscv-gcc.git
-	branch = riscv-gcc-10.2.0
+	branch = riscv-gcc-11.1.0
 [submodule "riscv-glibc"]
 	path = riscv-glibc
 	url = git://sourceware.org/git/glibc.git
@@ -23,4 +23,5 @@
 	branch = secure
 [submodule "qemu"]
 	path = qemu
-	url = https://git.qemu.org/git/qemu.git
+	url = git@github.com:HexHive/seccell-qemu.git
+	branch = secure-florian

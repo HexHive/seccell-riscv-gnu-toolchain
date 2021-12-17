@@ -832,9 +832,10 @@ stamps/build-qemu: $(QEMU_SRCDIR) $(QEMU_SRC_GIT)
 	mkdir $(notdir $@)
 	cd $(notdir $@) && $</configure \
 		--prefix=$(INSTALL_DIR) \
-		--target-list=riscv64-linux-user,riscv32-linux-user \
-		--interp-prefix=$(INSTALL_DIR)/sysroot \
-		--python=python3
+		--target-list=riscv64-softmmu \
+		--interp-prefix=$(SYSROOT) \
+		--python=python3 \
+		--with-git-submodules=ignore
 	$(MAKE) -C $(notdir $@)
 	$(MAKE) -C $(notdir $@) install
 	mkdir -p $(dir $@)
