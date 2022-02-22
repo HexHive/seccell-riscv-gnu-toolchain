@@ -24,4 +24,4 @@
 [submodule "qemu"]
 	path = qemu
 	url = git@github.com:HexHive/seccell-qemu.git
-	branch = secure-florian
+	branch = secure
